@@ -1,0 +1,14 @@
+{
+  "id" : 0,
+  "name" : "Temp2",
+  "version" : null,
+  "status" : "DRAFT",
+  "surveyDefinition" : "{\n \"pages\": [\n  {\n   \"name\": \"page1\",\n   \"elements\": [\n    {\n     \"type\": \"text\",\n     \"name\": \"question1\",\n     \"placeHolder\": \"mail@example.com\",\n     \"tag\": \"Optimum Email\"\n    }\n   ]\n  }\n ]\n}",
+  "lastInsertUpdateTS" : null,
+  "lastInsertUpdateBy" : "USER",
+  "expirationLogic" : null,
+  "expireByDayOfWeek" : 0,
+  "expireByHourOfDay" : 0,
+  "expireByMinuteOfHour" : 0,
+  "expireBySecondOfMinute" : 0
+}

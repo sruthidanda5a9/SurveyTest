@@ -1,0 +1,241 @@
+{
+ "pages": [
+  {
+   "name": "EmpoloyeeInformation",
+   "elements": [
+    {
+     "type": "text",
+     "name": "ClaimantJobTitle",
+     "title": "Claimant Job Title",
+     "isRequired": true
+    },
+    {
+     "type": "dropdown",
+     "name": "ClaimantPayType",
+     "title": "Claimant Pay Type",
+     "isRequired": true,
+     "choices": [
+      "Salary",
+      "Hourly"
+     ]
+    },
+    {
+     "type": "text",
+     "name": "PayAmount",
+     "title": "Pay Amount",
+     "isRequired": true,
+     "inputType": "number"
+    },
+    {
+     "type": "text",
+     "name": "EmploymentStartDate",
+     "title": "Employment Start Date",
+     "isRequired": true,
+     "inputType": "date"
+    }
+   ],
+   "title": "Employee Information"
+  },
+  {
+   "name": "SeveranceInformation",
+   "elements": [
+    {
+     "type": "radiogroup",
+     "name": "WillPaySeverance",
+     "title": "Did you or will you pay severance to <<claimantFullName>>?",
+     "isRequired": true,
+     "choices": [
+      "Yes",
+      "No"
+     ]
+    },
+    {
+     "type": "panel",
+     "name": "panel1",
+     "elements": [
+      {
+       "type": "text",
+       "name": "TotalDollarAmount",
+       "title": "Total Dollar Amount",
+       "isRequired": true,
+       "inputType": "number"
+      },
+      {
+       "type": "text",
+       "name": "SeveranceStartDate",
+       "title": "Start date of severance period",
+       "isRequired": true,
+       "inputType": "date"
+      },
+      {
+       "type": "text",
+       "name": "SeveranceEndDate",
+       "title": "End date of severance period",
+       "isRequired": true,
+       "inputType": "date"
+      },
+      {
+       "type": "text",
+       "name": "SeveranceEmployerName",
+       "title": "Employer Name",
+       "isRequired": true
+      },
+      {
+       "type": "text",
+       "name": "SeveranceEmployerAddress",
+       "title": "Employer Address",
+       "isRequired": true
+      },
+      {
+       "type": "text",
+       "name": "SeveranceEmployerPhoneNumber",
+       "title": "Employer Phone Number",
+       "isRequired": true,
+       "inputType": "number"
+      }
+     ],
+     "visible": false,
+     "visibleIf": "{WillPaySeverance} = 'Yes'"
+    }
+   ],
+   "title": "Severance Information"
+  },
+  {
+   "name": "PensionInformation",
+   "elements": [
+    {
+     "type": "radiogroup",
+     "name": "WillPayPension",
+     "title": "Did you or will you pay a pension to <<claimantFullName>>?",
+     "isRequired": true,
+     "choices": [
+      "Yes",
+      "No"
+     ]
+    },
+    {
+     "type": "panel",
+     "name": "panel2",
+     "elements": [
+      {
+       "type": "dropdown",
+       "name": "PensionType",
+       "title": "Pension Type",
+       "isRequired": true,
+       "choices": [
+        "Defined Benefit Pension",
+        "Defined Contribution Pension"
+       ]
+      },
+      {
+       "type": "text",
+       "name": "PensionStartDate",
+       "title": "Start date of pension",
+       "isRequired": true,
+       "inputType": "date"
+      },
+      {
+       "type": "text",
+       "name": "PensionEndDate",
+       "title": "End date of pension",
+       "isRequired": true,
+       "inputType": "date"
+      },
+      {
+       "type": "dropdown",
+       "name": "PayPeriod",
+       "title": "Pay Period",
+       "isRequired": true,
+       "choices": [
+        "Weekly",
+        "Bi-Weekly",
+        "Monthly",
+        "Semi-Monthly",
+        "Lump Sum"
+       ]
+      }
+     ],
+     "visible": false,
+     "visibleIf": "{WillPayPension} = 'Yes'"
+    },
+    {
+     "type": "text",
+     "name": "TotalLumpSumAmount",
+     "visible": false,
+     "visibleIf": "{PayPeriod} = 'Lump Sum' && {WillPayPension} = 'Yes'",
+     "title": "Total Amount",
+     "isRequired": true,
+     "inputType": "number"
+    },
+    {
+     "type": "panel",
+     "name": "panel3",
+     "elements": [
+      {
+       "type": "text",
+       "name": "MonthlyAmount",
+       "title": "Monthly Amount",
+       "isRequired": true,
+       "inputType": "number"
+      },
+      {
+       "type": "text",
+       "name": "PensionEmployerName",
+       "title": "Employer Name",
+       "isRequired": true
+      },
+      {
+       "type": "text",
+       "name": "PensionEmployerAddress",
+       "title": "Employer Address",
+       "isRequired": true
+      },
+      {
+       "type": "text",
+       "name": "PensionEmployerPhoneNumber",
+       "title": "Employer Phone Number",
+       "isRequired": true,
+       "inputType": "number"
+      }
+     ],
+     "visible": false,
+     "visibleIf": "{PayPeriod} = 'Monthly' && {WillPayPension} = 'Yes'"
+    }
+   ],
+   "title": "Pension Information"
+  },
+  {
+   "name": "SeparationInformation",
+   "elements": [
+    {
+     "type": "dropdown",
+     "name": "ClaimantSeparationReason",
+     "title": "Why is <<claimantFullName>> no longer working for you?",
+     "isRequired": true,
+     "choices": [
+      "Voluntary Quit",
+      "Discharged/Fired",
+      "Labor Dispute",
+      "Laid Off/Lack of Work",
+      "Other"
+     ]
+    },
+    {
+     "type": "text",
+     "name": "ClaimantEmploymentLastDay",
+     "title": "When was the last day of employment for <<claimantFullName>>?",
+     "isRequired": true,
+     "inputType": "date"
+    },
+    {
+     "type": "text",
+     "name": "ClaimantSeparationCircumstance",
+     "title": "Please describe the circumstances which led to the claimant's separation.",
+     "isRequired": true,
+     "size": 10
+    }
+   ],
+   "title": "Separation Information"
+  }
+ ]
+}

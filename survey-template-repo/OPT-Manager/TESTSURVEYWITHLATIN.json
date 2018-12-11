@@ -1,0 +1,14 @@
+{
+  "id" : 0,
+  "name" : "TEST SURVEY WITH LATIN",
+  "version" : null,
+  "status" : "DRAFT",
+  "surveyDefinition" : "Formulario estándar",
+  "lastInsertUpdateTS" : null,
+  "lastInsertUpdateBy" : "string",
+  "expirationLogic" : null,
+  "expireByDayOfWeek" : 0,
+  "expireByHourOfDay" : 0,
+  "expireByMinuteOfHour" : 0,
+  "expireBySecondOfMinute" : 0
+}

@@ -1,0 +1,15 @@
+{
+ "pages": [
+  {
+   "name": "page1",
+   "elements": [
+    {
+     "type": "text",
+     "name": "First question",
+     "placeHolder": "Number only",
+     "tag": "Optimum Label"
+    }
+   ]
+  }
+ ]
+}

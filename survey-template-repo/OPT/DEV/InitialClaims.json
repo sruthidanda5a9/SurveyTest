@@ -1,0 +1,1858 @@
+{
+ "pages": [
+  {
+   "category": "Introduction",
+   "elements": [
+    {
+     "type": "html",
+     "name": "question2",
+     "html": "<b>When to File a UI Claim</b></br>\nYou should submit an application for unemployment insurance (UI) during the week your employment status has changed.  Some of those changes include:\n<ul>\n   <li>You quit or were terminated from your job</li>\n   <li>Your hours were reduced</li>\n   <li>You are temporarily or permanently laid off</li>\n</ul></br>\nNote: <em>You will not be able to report a future separation date on the application.</em></br></br>\n<b>Minimum Eligibility Requirements:</b></br>\n<ul>\n   <li>You are totally or partially unemployed</li>\n   <li>You are unemployed through no fault of your own</li>\n   <li>You have worked and earned a certain amount of wages in Iowa in the last 18 months</li>\n   <ul>\n      <li>If you have worked in another state and have not worked in Iowa in the last 18 months, you must contact the unemployment office in the state(s) where you have worked</li>\n   </ul>\n   <li>You are able to work and available for work</li>\n</ul>\n</br>\n<b>Important Information You Might Need to File an Unemployment Insurance (UI) Claim</b></br>\n<ul>\n   <li>Your social security number (SSN)</li>\n   <li>Name, payroll address, work location and phone number of your last/current employer</li>\n   <li>Start and end dates of your employment</li>\n   <li>You may be asked to provide details about your employment status and ability to work</li>\n   <li>Name(s), SSN, date of birth, and relationship of any dependents that you claim on your income tax return</li>\n   <li>\n      DD-214 Certificate of Release or Discharge from Active Duty (Member Copy 4) form information, if you served in the U.S. military during the last 18 months \n      <ul>\n         <li>Note: If you do not have your DD-214 at this time, you may be required to provide it in the future</li>\n      </ul>\n   </li>\n   <li>Standard Form 8 Notice to Federal Employee about Unemployment Insurance (SF-8) or Standard Form 50 Notification of Personnel Action (SF-50), if you worked for the federal government in the last 18 months </li>\n   <li>Information about your pension, severance pay, and workers’ compensation (ex. effective date, amount, name of employer, etc.) </li>\n   <li>Your A/Alien/USCIS/I94 number and the immigration document name/type, if not a U.S. citizen </li>\n   <li>The name and local number of your labor union hiring hall </li>\n</ul>\n</br>\n<b>The Application Process </b> </br>\n<ul>\n   <li>The information you enter on this application will be saved until 11:59 p.m. on Saturday MM/DD/YYYY, if you do not submit the application today </li>\n   <li>You will be logged out of the application if there is no activity for 30 minutes </li>\n   <li>It takes approximately 30 minutes to complete the application </li>\n   <li>You may be required to verify your identity during the application process </li>\n</ul></br>\n<b>After you successfully submit the application, you will: </b> </br>\n<ul>\n   <li>Be able to print a claim application summary for your records</li>\n   <li>Receive a claim confirmation number</li>\n   <li>Receive instructions for filing a weekly claim</li>\n   <li>\n      Receive a link to the UI Handbook that outlines your rights and responsibilities\n      <ul>\n         <li>\n            We recommend you review the UI Handbook before filing for UI benefits by clicking \n\t\t\there: <a style=\"color:#337ab7;text-decoration:underline;background-color:white;padding:0px !important;font-weight:bold;font-size:inherit !important;\" href=\"https://www.iowaworkforcedevelopment.gov/unemployment-insurance-benefits-handbook-guide-unemployment-insurance-benefits\" target=\"_blank\">Unemployment Insurance Handbook</a> </br>\n         </li>\n      </ul>\n   </li>\n</ul>\nThe UI Handbook explains your rights and responsibilities for claiming UI benefits. It answers common questions and covers general UI information.\n</br></br>\n<b>WARNING:</b> </br>\nYou may be guilty of fraud if you make false statements, provide false information, or knowingly withhold information for the purpose of receiving benefits. If you commit UI fraud, you may be fined, penalized, and criminally prosecuted. You will be required to repay UI benefits you are not eligible to receive. If you have an overpayment as a result of fraud, you will not receive UI benefits until you have paid your debt in full. </br>\n\n<a style=\"color:#337ab7;text-decoration:underline;background-color:white;padding:0px !important;font-weight:bold;font-size:inherit !important;\" href=\"https://www.iowaworkforcedevelopment.gov/equal-opportunity-law\" target=\"_blank\">Equal Opportunity is the Law</a>"
+    }
+   ],
+   "name": "Introduction",
+   "title": "Introduction"
+  },
+  {
+   "category": "Citizenship confirmation",
+   "elements": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "description": "This is a test description.",
+     "isRequired": true,
+     "name": "Citizenship confirmation",
+     "tag": "Optimum RadioGroup",
+     "title": {
+      "default": "Are you a citizen of the United States?",
+      "es": "[ES] Are you a citizen of the United States?"
+     }
+    },
+    {
+     "type": "panel",
+     "name": "notACitizenPanel",
+     "elements": [
+      {
+       "type": "checkbox",
+       "name": "Non-citizen work documents",
+       "tag": "Optimum Checkbox",
+       "title": {
+        "default": "Please select the document that confirms you are approved to work in the United States.",
+        "es": "[ES] Please select the document that confirms you are approved to work in the United States."
+       },
+       "choices": [
+        {
+         "value": "Permanent Resident Card I-551",
+         "text": {
+          "es": "Permanent Resident Card I-551"
+         }
+        },
+        {
+         "value": "Employment Authorization Document Form I-766",
+         "text": {
+          "es": "Employment Authorization Document Form I-766"
+         }
+        },
+        {
+         "value": "Arrival Departure Record Form I-94",
+         "text": {
+          "es": "Arrival Departure Record Form I-94"
+         }
+        },
+        {
+         "value": "Refugee Travel Document Form I-571",
+         "text": {
+          "es": "Refugee Travel Document Form I-571"
+         }
+        },
+        {
+         "value": "Reentry Permit Form I-327",
+         "text": {
+          "es": "Reentry Permit Form I-327"
+         }
+        },
+        {
+         "value": "Other",
+         "text": {
+          "es": "Other"
+         }
+        }
+       ]
+      },
+      {
+       "type": "panel",
+       "name": "panel",
+       "elements": [
+        {
+         "type": "html",
+         "name": "question22",
+         "html": {
+          "default": "Permanent Resident Card I-551",
+          "es": "[ES] Permanent Resident Card I-551"
+         }
+        },
+        {
+         "type": "text",
+         "name": "Permanent Resident Card I-551 Follow Up 1/3",
+         "tag": "Optimum Number",
+         "title": {
+          "default": "Alien/USCIS Number",
+          "es": "[ES] Alien/USCIS Number"
+         },
+         "isRequired": true
+        },
+        {
+         "type": "text",
+         "name": "Permanent Resident Card I-551 Follow Up 2/3",
+         "tag": "Optimum Number",
+         "title": {
+          "default": "Card Number",
+          "es": "[ES] Card Number"
+         },
+         "isRequired": true
+        },
+        {
+         "type": "text",
+         "name": "Permanent Resident Card I-551 Follow Up 3/3",
+         "tag": "Optimum Date",
+         "title": {
+          "default": "Document Expiration Date",
+          "es": "[ES] Document Expiration Date"
+         }
+        }
+       ],
+       "visible": false,
+       "visibleIf": "{Non-citizen work documents} contains 'Permanent Resident Card I-551'"
+      },
+      {
+       "type": "panel",
+       "name": "panel4",
+       "elements": [
+        {
+         "type": "html",
+         "name": "question23",
+         "html": "Employment Authorization Document Form I-766"
+        },
+        {
+         "type": "text",
+         "name": "Employment Authorization Document Form I-766 Follow Up 1/3",
+         "tag": "Optimum Number",
+         "title": "Alien/USCIS Number",
+         "isRequired": true
+        },
+        {
+         "type": "text",
+         "name": "Employment Authorization Document Form I-766 Follow Up 2/3",
+         "tag": "Optimum Number",
+         "title": "Card Number",
+         "isRequired": true
+        },
+        {
+         "type": "text",
+         "name": "Employment Authorization Document Form I-766 Follow Up 3/3",
+         "tag": "Optimum Date",
+         "title": "Document Expiration Date"
+        }
+       ],
+       "visible": false,
+       "visibleIf": "{Non-citizen work documents} contains 'Employment Authorization Document Form I-766'"
+      },
+      {
+       "type": "panel",
+       "name": "panel2",
+       "elements": [
+        {
+         "type": "html",
+         "name": "question24",
+         "html": "Arrival Departure Record Form I-94"
+        },
+        {
+         "type": "text",
+         "name": "Arrival Departure Record Form I-94 Follow Up 1/2",
+         "tag": "Optimum Number",
+         "title": "I-94 Number",
+         "isRequired": true
+        },
+        {
+         "type": "text",
+         "name": "Arrival Departure Record Form I-94 Follow Up 2/2",
+         "tag": "Optimum Date",
+         "title": "Document Expiration Date"
+        }
+       ],
+       "visible": false,
+       "visibleIf": "{Non-citizen work documents} contains 'Arrival Departure Record Form I-94'"
+      },
+      {
+       "type": "panel",
+       "name": "panel2",
+       "elements": [
+        {
+         "type": "html",
+         "name": "question25",
+         "html": "Refugee Travel Document Form I-571"
+        },
+        {
+         "type": "text",
+         "name": "Refugee Travel Document Form I-571 Follow Up 1/2",
+         "tag": "Optimum Number",
+         "title": "Alien/USCIS Number",
+         "isRequired": true
+        },
+        {
+         "type": "text",
+         "name": "Refugee Travel Document Form I-571 Follow Up 2/2",
+         "tag": "Optimum Date",
+         "title": "Document Expiration Date"
+        }
+       ],
+       "visible": false,
+       "visibleIf": "{Non-citizen work documents} contains 'Refugee Travel Document Form I-571'"
+      },
+      {
+       "type": "panel",
+       "name": "panel3",
+       "elements": [
+        {
+         "type": "html",
+         "name": "question26",
+         "html": "Reentry Permit Form I-327"
+        },
+        {
+         "type": "text",
+         "name": "Reentry Permit Form I-327 1/2",
+         "tag": "Optimum Number",
+         "title": "Alien/USCIS Number",
+         "isRequired": true
+        },
+        {
+         "type": "text",
+         "name": "Reentry Permit Form I-327 Follow Up 2/2",
+         "tag": "Optimum Date",
+         "title": "Document Expiration Date"
+        }
+       ],
+       "visible": false,
+       "visibleIf": "{Non-citizen work documents} contains 'Reentry Permit Form I-327'"
+      },
+      {
+       "type": "panel",
+       "name": "panel1",
+       "elements": [
+        {
+         "type": "html",
+         "name": "question27",
+         "html": "Other"
+        },
+        {
+         "type": "text",
+         "name": "Other Follow Up 1/3",
+         "tag": "Optimum SingleLine",
+         "title": "Document Name",
+         "isRequired": true
+        },
+        {
+         "type": "text",
+         "name": "Other Follow Up 2/3",
+         "tag": "Optimum Number",
+         "title": "Alien/USCIS Number ",
+         "isRequired": true
+        },
+        {
+         "type": "text",
+         "name": "Other Follow Up 3/3",
+         "tag": "Optimum Date",
+         "title": "Document Expiration Date"
+        }
+       ],
+       "visible": false,
+       "visibleIf": "{Non-citizen work documents} contains 'Other'"
+      }
+     ],
+     "visible": false,
+     "visibleIf": "{Citizenship confirmation} = 'No'"
+    }
+   ],
+   "name": "Citizenship confirmation",
+   "title": "Citizenship confirmation"
+  },
+  {
+   "blockIf": "{Out of state wages 1} = 'Yes'",
+   "category": "General Questions",
+   "elements": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "name": "Out of state wages 1",
+     "tag": "Optimum RadioGroup",
+     "title": "Have you filed for unemployment insurance benefits in any state other than Iowa since MM/DD/YYYY? "
+    },
+    {
+     "type": "html",
+     "name": "info",
+     "visible": false,
+     "visibleIf": "{Out of state wages 1} = 'Yes'",
+     "html": "If you have benefits available on an existing claim in another state, you must contact that state."
+    }
+   ],
+   "name": "General Questions",
+   "title": "General Questions"
+  },
+  {
+   "category": "Union Hiring Hall",
+   "elements": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "name": "Union hiring hall",
+     "tag": "Optimum RadioGroup",
+     "title": "Do you receive work through a union hiring hall?"
+    },
+    {
+     "type": "panel",
+     "name": "panel5",
+     "elements": [
+      {
+       "type": "radiogroup",
+       "choices": [
+        "Yes",
+        "No"
+       ],
+       "name": "Union standing",
+       "tag": "Optimum RadioGroup",
+       "title": "Are you a member in good standing?"
+      },
+      {
+       "type": "panel",
+       "name": "panel6",
+       "elements": [
+        {
+         "type": "text",
+         "name": "Union name",
+         "tag": "Optimum SingleLine",
+         "title": "Please enter your union name"
+        },
+        {
+         "type": "text",
+         "name": "Union local number",
+         "tag": "Optimum Number",
+         "title": "Please enter your union local number"
+        }
+       ],
+       "visible": false,
+       "visibleIf": "{Union standing}='Yes'"
+      }
+     ],
+     "visible": false,
+     "visibleIf": "{Union hiring hall}='Yes'"
+    }
+   ],
+   "name": "Union Hiring Hall",
+   "title": "Union Hiring Hall"
+  },
+  {
+   "blockIf": "{Other states wages 1?} = 'Yes'",
+   "category": "Out Of State Employment",
+   "elements": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "name": "Out of state wages 2",
+     "tag": "Optimum RadioGroup",
+     "title": "Have you worked in any state(s) other than Iowa since MM/DD/YYYY? [Beginning date of regular base period]"
+    },
+    {
+     "type": "html",
+     "name": "question5",
+     "visible": false,
+     "visibleIf": "{Out of state wages 2} = 'Yes'",
+     "html": "TODO: use multi select for multiple states."
+    },
+    {
+     "type": "checkbox",
+     "name": "Other states worked in",
+     "visible": false,
+     "visibleIf": "{Out of state wages 2} = 'Yes'",
+     "tag": "Optimum Checkbox",
+     "title": "Select all states where you worked since MM/DD/YYYY [Beginning date of regular base period]",
+     "choices": [
+      "item1",
+      "item2",
+      "item3"
+     ]
+    },
+    {
+     "type": "radiogroup",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "name": "Other states wages 1?",
+     "tag": "Optimum RadioGroup",
+     "title": "Wages earned in other states may be added to your Iowa claim to satisfy the wage qualification requirements or to increase your benefit amount. Do you want out of state wages added to your Iowa claim",
+     "visible": false,
+     "visibleIf": "{Out of state wages 2}='Yes'"
+    },
+    {
+     "type": "html",
+     "name": "question4",
+     "visible": false,
+     "visibleIf": "{Other states wages 1?} = 'Yes'",
+     "html": "Wages you earned in other states will not be listed on your first monetary because these wages must be requested from the other state(s). Once we receive your wages, we will send you a corrected monetary record."
+    }
+   ],
+   "name": "Out Of State Employment",
+   "title": "Out Of State Employment"
+  },
+  {
+   "blockIf": "({Where are you?} notempty and {Where are you?} != 'IA') or (compareDate({Militarydetails4/11}, <<BYB>>) = 1)",
+   "category": "Military Service",
+   "elements": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "name": "Military service",
+     "tag": "Optimum RadioGroup",
+     "title": "Were you a member of the U.S. military on active duty at any time since MM/DD/YYYY? [Beginning date of regular base period]"
+    },
+    {
+     "type": "panel",
+     "name": "panel7",
+     "elements": [
+      {
+       "type": "dropdown",
+       "name": "Where are you?",
+       "tag": "Optimum Dropdown",
+       "title": "What state are you physically located in at this moment?",
+       "choiceUrl": "/optimum-clientside-library/platform-services/dist/data/statesList.json"
+      },
+      {
+       "type": "html",
+       "name": "Military service Msg",
+       "visible": false,
+       "visibleIf": "{Where are you?} notempty and {Where are you?} != 'IA'",
+       "html": "When filing a military unemployment claim, federal law requires you to be physically present in the state in which you are filing. You must file the application in the state where you are currently located. "
+      },
+      {
+       "type": "panel",
+       "name": "panel8",
+       "elements": [
+        {
+         "type": "html",
+         "name": "question1",
+         "html": "Additional information is needed to complete your claim. Use your Certificate of Release or Discharge from Active Duty DD214 to answer the following questions then upload your Member 4 copy of the DD214."
+        },
+        {
+         "type": "text",
+         "name": "Military details 1/11",
+         "tag": "Optimum SingleLine",
+         "title": "What was your Branch of Service? (Item 2)"
+        },
+        {
+         "type": "text",
+         "name": "Military details 2/11",
+         "tag": "Optimum SingleLine",
+         "title": "What was your last pay grade? (Item 4b)"
+        },
+        {
+         "type": "text",
+         "name": "Military details 3/11",
+         "tag": "Optimum Date",
+         "title": "What was your Entry Date? (Item 12a)"
+        },
+        {
+         "type": "text",
+         "name": "Militarydetails4/11",
+         "tag": "Optimum Date",
+         "title": "What was your Separation Date? (Item 12b)"
+        },
+        {
+         "type": "html",
+         "name": "Military can't submit msg",
+         "visible": false,
+         "visibleIf": "compareDate({Militarydetails4/11}, computeBYB()) = 1",
+         "html": "If you submit this application today, the start date of your UI claim is Sunday, MM/DD/YYYY. Federal law does not allow a Military UI claim to start before the separation date listed on the DD214. You must wait to submit your claim application until Sunday MM/DD/YYYY. {Militarydetails4/11}\n"
+        },
+        {
+         "type": "panel",
+         "name": "panel9",
+         "elements": [
+          {
+           "type": "text",
+           "name": "Military details 5/11",
+           "tag": "Optimum Number",
+           "title": "Please enter the number of days of accrued leave as it appears in item 16 on Form DD214"
+          },
+          {
+           "type": "dropdown",
+           "name": "Military details 6/11",
+           "tag": "Optimum Dropdown",
+           "title": "What was the Character of Service? (Item 24)",
+           "choices": [
+            "Honorable",
+            "Dishonorable",
+            "General",
+            "Other Than Honorable",
+            "Uncharacterized",
+            "Bad Conduct"
+           ]
+          },
+          {
+           "type": "radiogroup",
+           "choices": [
+            "Yes",
+            "No"
+           ],
+           "name": "Military details 7/11",
+           "tag": "Optimum RadioGroup",
+           "title": "Are there any dates of time lost listed in item #29 on your DD214?"
+          },
+          {
+           "type": "text",
+           "name": "Military details 8/11",
+           "visible": false,
+           "visibleIf": "{Military details 7/11} = 'Yes'",
+           "tag": "Optimum Label",
+           "title": "Please enter the Start Date and End Date of time lost in item #29 on your DD214.",
+           "placeHolder": "THIS IS NOT A QUESTION"
+          },
+          {
+           "type": "text",
+           "name": "Military details 8/11 Start Date",
+           "visible": false,
+           "visibleIf": "{Military details 7/11} = 'Yes'",
+           "tag": "Optimum Date",
+           "title": "Start Date"
+          },
+          {
+           "type": "text",
+           "name": "Military details 8/11 End Date",
+           "visible": false,
+           "visibleIf": "{Military details 7/11} = 'Yes'",
+           "tag": "Optimum Date",
+           "title": "End Date"
+          },
+          {
+           "type": "radiogroup",
+           "choices": [
+            "Yes",
+            "No"
+           ],
+           "name": "Military details 9/11",
+           "tag": "Optimum RadioGroup",
+           "title": "Have you had any other employment since your military service ended on {Militarydetails4/11}?",
+           "visible": false,
+           "visibleIf": "{Military details 7/11} = 'No'"
+          },
+          {
+           "type": "panel",
+           "name": "panel10",
+           "elements": [
+            {
+             "type": "html",
+             "name": "question6",
+             "html": "TODO: Change to [Invoke System Requirement 78038:  The system shall interface with O*Net to derive codes by job titles.]"
+            },
+            {
+             "type": "text",
+             "name": "Military details 10/11",
+             "tag": "Optimum SingleLine",
+             "title": "What was your job title?"
+            },
+            {
+             "type": "text",
+             "name": "Military details 11/11",
+             "tag": "Optimum SingleLine",
+             "title": "What were your job duties?"
+            },
+            {
+             "type": "html",
+             "name": "Military no wages msg",
+             "html": "<a title=\"A monetary record is a document that displays your benefit amounts. This information is based on wages paid in the base period of your claim.\">Wages you earned from the military will not be listed on your first monetary record  because these wages must be requested. Once we receive your wages, we will send you a corrected monetary record.</a>"
+            }
+           ],
+           "visible": false,
+           "visibleIf": "{Military details 9/11} ='No'"
+          }
+         ],
+         "visible": false,
+         "visibleIf": "compareDate({Militarydetails4/11}, computeBYB()) < 0 or compareDate({Militarydetails4/11}, computeBYB()) = 0"
+        }
+       ],
+       "visible": false,
+       "visibleIf": "{Where are you?} = 'IA'"
+      }
+     ],
+     "visible": false,
+     "visibleIf": "{Military service} = 'Yes'"
+    }
+   ],
+   "name": "Military Service",
+   "title": "Military Service"
+  },
+  {
+   "blockIf": "{Federal work details 3/3} <> 'IA' and <<IowaBasePeriodWages>> = true and {Federal work details 3/3} notempty",
+   "category": "Federal Civilian Employment",
+   "elements": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "name": "Federal work confirmation",
+     "tag": "Optimum RadioGroup",
+     "title": "Did you work for the Federal Government (not including military service) at any time after MM/DD/YYYY? [Beginning date of regular base period]"
+    },
+    {
+     "type": "panel",
+     "name": "panel11",
+     "elements": [
+      {
+       "type": "text",
+       "name": "Federal work details 1/3",
+       "tag": "Optimum SingleLine",
+       "title": "What was the name of your Federal Employer?"
+      },
+      {
+       "type": "text",
+       "name": "Federal work details 2/3",
+       "tag": "Optimum SingleLine",
+       "title": "In which department within the Federal Agency did you work?"
+      },
+      {
+       "type": "dropdown",
+       "name": "Federal work details 3/3",
+       "tag": "Optimum Dropdown",
+       "title": "What was your Last Office Duty Station",
+       "choices": [
+        "item1",
+        "item2",
+        "item3"
+       ],
+       "choiceUrl": "/optimum-clientside-library/platform-services/dist/data/statesList.json"
+      },
+      {
+       "type": "html",
+       "name": "question10",
+       "visibleIf": "{Federal work details 3/3} <> 'IA' and <<IowaBasePeriodWages>> = true and {Federal work details 3/3} notempty",
+       "html": "You are not eligible to file a claim in Iowa. You must file a UI application in the state where you worked for the Federal Employer. View the contact information for your state here. Contact [name of state] at [phone number and URL]. "
+      },
+      {
+       "type": "panel",
+       "name": "panel12",
+       "elements": [
+        {
+         "type": "multipletext",
+         "name": "Federal work information 1/3",
+         "tag": "Optimum Address",
+         "title": "What is the payroll address from your SF8 or SF50 form?",
+         "items": [
+          {
+           "name": "addressLine1"
+          },
+          {
+           "name": "addressLine2"
+          },
+          {
+           "name": "city"
+          },
+          {
+           "name": "state"
+          },
+          {
+           "name": "zip"
+          },
+          {
+           "name": "zipExtension"
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "name": "Federal work information 2/3",
+         "tag": "Optimum Label",
+         "title": "What were your dates of employment?",
+         "placeHolder": "THIS IS NOT A QUESTION"
+        },
+        {
+         "type": "text",
+         "name": "Federal work information 2/3 First date worked",
+         "tag": "Optimum Date",
+         "title": "First date worked"
+        },
+        {
+         "type": "text",
+         "name": "Federalworkinformation2/3Lastdateworked",
+         "tag": "Optimum Date",
+         "title": "Last date worked"
+        },
+        {
+         "type": "radiogroup",
+         "choices": [
+          "Yes",
+          "No"
+         ],
+         "name": "Federal work information 3/3",
+         "tag": "Optimum RadioGroup",
+         "title": "Have you had other employment since {Federalworkinformation2/3Lastdateworked}?",
+         "visible": false,
+         "visibleIf": "{Military service} = 'No'"
+        },
+        {
+         "type": "panel",
+         "name": "panel13",
+         "elements": [
+          {
+           "type": "panel",
+           "name": "panel14",
+           "elements": [
+            {
+             "type": "html",
+             "name": "question13",
+             "html": "TODO: [Invoke System Requirement 78038:  The system shall interface with O*Net to derive codes by job titles.]"
+            },
+            {
+             "type": "text",
+             "name": "Federal other employment title",
+             "tag": "Optimum SingleLine",
+             "title": "What was your job title?"
+            },
+            {
+             "type": "radiogroup",
+             "choices": [
+              "Yes",
+              "No"
+             ],
+             "name": "Federal other employment FT or PT",
+             "tag": "Optimum RadioGroup",
+             "title": "Was this full-time employment?"
+            },
+            {
+             "type": "radiogroup",
+             "choices": [
+              "Yes",
+              "No"
+             ],
+             "name": "Federal other employment FT at all",
+             "tag": "Optimum RadioGroup",
+             "title": "Have you worked full-time for any employer since MM/DD/YYYY [Beginning Date of Base period]?",
+             "visible": false,
+             "visibleIf": "{Federal other employment FT or PT}='No'"
+            },
+            {
+             "type": "dropdown",
+             "name": "Reason for separation",
+             "tag": "Optimum Dropdown",
+             "title": "What was your reason for separation?",
+             "choices": [
+              "I quit",
+              "I was terminated",
+              "I was laid off",
+              {
+               "value": "I'm still employed",
+               "text": "Im still employed"
+              },
+              "I left for military service or training",
+              "I’m off work due to a labor dispute/strike/lockout",
+              "I’m off due a natural disaster",
+              "The business I worked for closed permanently"
+             ]
+            },
+            {
+             "type": "dropdown",
+             "name": "Reason for termination",
+             "visible": false,
+             "visibleIf": "{Reason for separation}='I was terminated'",
+             "tag": "Optimum Dropdown",
+             "title": "What was the reason for your termination?",
+             "choices": [
+              "Reduction in force or company downsizing",
+              "No reason given to me by my employer",
+              "Temporary assignment ended/Employer had no more work available",
+              "Work performance/Not meeting company goals",
+              "Attendance",
+              "Medical reasons",
+              "Alleged misconduct ",
+              "Alleged theft ",
+              "Work rule violation ",
+              "Forced Resignation ",
+              "Other"
+             ]
+            },
+            {
+             "type": "dropdown",
+             "name": "Reason for being laid off",
+             "visible": false,
+             "visibleIf": "{Reason for separation}='I was laid off'",
+             "tag": "Optimum Dropdown",
+             "title": "Please select one of the following:",
+             "choices": [
+              "I am permanently laid off ",
+              "I am temporarily laid off ",
+              "My temporary job assignment ended "
+             ]
+            },
+            {
+             "type": "dropdown",
+             "name": "Still employed reason",
+             "visible": false,
+             "visibleIf": "{Reason for separation}='Im still employed'",
+             "tag": "Optimum Dropdown",
+             "title": "Please select one of the following:",
+             "choices": [
+              "I requested a reduction in hours ",
+              "Employer has permanently reduced my hours ",
+              "Employer has temporarily reduced my hours ",
+              "I am currently on a leave of absence ",
+              "There has been no change to my hours with this employer "
+             ]
+            },
+            {
+             "type": "panel",
+             "name": "panel15",
+             "elements": [
+              {
+               "type": "dropdown",
+               "name": "Closed permanently reason",
+               "tag": "Optimum Dropdown",
+               "title": "Please select one of the following:",
+               "choices": [
+                "Entire business closed",
+                "Work site/location closed",
+                "Department closed"
+               ]
+              },
+              {
+               "type": "radiogroup",
+               "choices": [
+                "Yes",
+                "No"
+               ],
+               "name": "Was closed permanently sold",
+               "tag": "Optimum RadioGroup",
+               "title": "Was the employer’s business sold?"
+              },
+              {
+               "type": "panel",
+               "name": "panel16",
+               "elements": [
+                {
+                 "type": "text",
+                 "name": "Closed permanently sold info 1/5",
+                 "tag": "Optimum Date",
+                 "title": "Please enter the date the business was sold."
+                },
+                {
+                 "type": "text",
+                 "name": "Closed permanently sold info 2/5",
+                 "tag": "Optimum SingleLine",
+                 "title": "What is the new business name?"
+                },
+                {
+                 "type": "text",
+                 "name": "Closed permanently sold info 3/5",
+                 "tag": "Optimum SingleLine",
+                 "title": "What is the new owner’s name?"
+                },
+                {
+                 "type": "text",
+                 "name": "Closed permanently sold info 4/5",
+                 "tag": "Optimum Phone",
+                 "title": "What is the new owner’s phone number?"
+                },
+                {
+                 "type": "multipletext",
+                 "name": "Closed permanently sold info 5/5",
+                 "tag": "Optimum Address",
+                 "title": "What is the new owner’s address?",
+                 "items": [
+                  {
+                   "name": "addressLine1"
+                  },
+                  {
+                   "name": "addressLine2"
+                  },
+                  {
+                   "name": "city"
+                  },
+                  {
+                   "name": "state"
+                  },
+                  {
+                   "name": "zip"
+                  },
+                  {
+                   "name": "zipExtension"
+                  }
+                 ]
+                }
+               ],
+               "visible": false,
+               "visibleIf": "{Was closed permanently sold}='Yes'"
+              },
+              {
+               "type": "text",
+               "name": "Other names",
+               "tag": "Optimum SingleLine",
+               "title": "Enter any other name your employer uses (doing business as)."
+              },
+              {
+               "type": "text",
+               "name": "Date business closed",
+               "tag": "Optimum Date",
+               "title": "Please enter the date the business closed"
+              }
+             ],
+             "visible": false,
+             "visibleIf": "{Reason for separation}='The business I worked for closed permanently'"
+            },
+            {
+             "type": "text",
+             "name": "Job duties 1",
+             "tag": "Optimum SingleLine",
+             "title": "What were your job duties?"
+            }
+           ],
+           "visible": false,
+           "visibleIf": "{Federal work information 3/3} = 'No'"
+          }
+         ],
+         "visible": false,
+         "visibleIf": "{Federal work information 3/3}='No'"
+        },
+        {
+         "type": "paneldynamic",
+         "name": "Gross Earnings",
+         "tag": "Optimum DynamicPanel",
+         "title": "Please enter your Gross Earnings for the following quarters:",
+         "templateElements": [
+          {
+           "type": "text",
+           "name": "Quarter 1",
+           "tag": "Optimum Currency",
+           "title": "Quarter 1 [MM/DD/YYYY through MM/DD/YYYY]",
+           "placeHolder": "$ 1,000,000"
+          },
+          {
+           "type": "text",
+           "name": "Quarter 2",
+           "tag": "Optimum Currency",
+           "title": "Quarter 2 [MM/DD/YYYY through MM/DD/YYYY]",
+           "placeHolder": "$ 1,000,000"
+          },
+          {
+           "type": "text",
+           "name": "Quarter 3",
+           "tag": "Optimum Currency",
+           "title": "Quarter 3 [MM/DD/YYYY through MM/DD/YYYY]",
+           "placeHolder": "$ 1,000,000"
+          },
+          {
+           "type": "text",
+           "name": "Quarter 4",
+           "tag": "Optimum Currency",
+           "title": "Quarter 4 [MM/DD/YYYY through MM/DD/YYYY]",
+           "placeHolder": "$ 1,000,000"
+          }
+         ],
+         "allowAddPanel": false,
+         "panelCount": 1
+        },
+        {
+         "type": "html",
+         "name": "question8",
+         "html": "Wages you earned from the federal employer will not be listed on your first monetary record because these wages must be requested. Once we receive your wages, we will send you a corrected monetary record.\n<br><br>\nAt the end of this questionnaire, you will be directed to upload your most recent pay stub or a W2 tax form.\n"
+        }
+       ],
+       "visible": false,
+       "visibleIf": "{Federal work details 3/3} = 'IA' and <<IowaBasePeriodWages>> = true"
+      }
+     ],
+     "visible": false,
+     "visibleIf": "{Federal work confirmation}='Yes'"
+    }
+   ],
+   "name": "Federal Civilian Employment",
+   "title": "Federal Civilian Employment"
+  },
+  {
+   "category": "Most Recent Employment",
+   "elements": [
+    {
+     "type": "html",
+     "name": "Most recent employer details msg",
+     "visible": false,
+     "visibleIf": "{Out of state wages 1} = 'Yes'",
+     "html": "Please enter the following information for your most recent employer:"
+    },
+    {
+     "type": "text",
+     "name": "Most recent employer details 1/5",
+     "tag": "Optimum SingleLine",
+     "title": "Employer name"
+    },
+    {
+     "type": "multipletext",
+     "name": "Most recent employer details 2/5",
+     "tag": "Optimum Address",
+     "title": "Employer address",
+     "items": [
+      {
+       "name": "addressLine1"
+      },
+      {
+       "name": "addressLine2"
+      },
+      {
+       "name": "city"
+      },
+      {
+       "name": "state"
+      },
+      {
+       "name": "zip"
+      },
+      {
+       "name": "zipExtension"
+      }
+     ]
+    },
+    {
+     "type": "multipletext",
+     "name": "Most recent employer details 3/5",
+     "tag": "Optimum Address",
+     "title": "Work location address, if different from employer address",
+     "items": [
+      {
+       "name": "addressLine1"
+      },
+      {
+       "name": "addressLine2"
+      },
+      {
+       "name": "city"
+      },
+      {
+       "name": "state"
+      },
+      {
+       "name": "zip"
+      },
+      {
+       "name": "zipExtension"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "name": "Most recent employer details 4/5",
+     "tag": "Optimum Phone",
+     "title": "Employer phone number"
+    },
+    {
+     "type": "text",
+     "name": "Most recent employer details 5/5",
+     "tag": "Optimum Email",
+     "title": "Employer email address",
+     "placeHolder": "mail@example.com"
+    },
+    {
+     "type": "text",
+     "name": "Most recent employer contact",
+     "tag": "Optimum SingleLine",
+     "title": "What is the name and title of your contact?"
+    },
+    {
+     "type": "text",
+     "name": "Most recent employer start date",
+     "tag": "Optimum Date",
+     "title": "What was the date you started working for this employer?"
+    },
+    {
+     "type": "text",
+     "name": "Mostrecentemployerenddate",
+     "tag": "Optimum Date",
+     "title": "What was the date you last worked for this employer?"
+    },
+    {
+     "type": "html",
+     "name": "question14",
+     "visible": false,
+     "visibleIf": "{Out of state wages 1} = 'Yes'",
+     "html": "TODO: [Date cannot be in the future, or before the date provided in “Question ID: Most recent employer start date.” If date is in the future, the validation error should read “Date cannot be in the future.” If the date is before the date provided in “Question ID: Most recent employee start date,” the validation error should read “Date cannot be before the date you started worked for this employer.”]"
+    },
+    {
+     "type": "text",
+     "name": "Most recent employer job title",
+     "tag": "Optimum SingleLine",
+     "title": "What was your job title?"
+    },
+    {
+     "type": "html",
+     "name": "question15",
+     "visible": false,
+     "visibleIf": "{Out of state wages 1} = 'Yes'",
+     "html": "TODO: [Invoke System Requirement 78038:  The system shall interface with O*Net to derive codes by job titles.]"
+    },
+    {
+     "type": "radiogroup",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "name": "Most recent employer was FT employment",
+     "tag": "Optimum RadioGroup",
+     "title": "Was this full-time employment?"
+    },
+    {
+     "type": "radiogroup",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "name": "Most recent employer full time",
+     "tag": "Optimum RadioGroup",
+     "title": "Have you worked full-time for any employer since MM/DD/YYYY? [Beginning Date of Base Period]",
+     "visible": false,
+     "visibleIf": "{Most recent employer was FT employment}='No'"
+    },
+    {
+     "type": "dropdown",
+     "name": "Most recent employer separation reason",
+     "tag": "Optimum Dropdown",
+     "title": "What was your reason for separation?",
+     "choices": [
+      "I quit",
+      "I was terminated",
+      "I was laid off",
+      {
+       "value": "I'm still employed",
+       "text": "Im still employed"
+      },
+      "I left for military service or training",
+      "I’m off work due to a labor dispute/strike/lockout",
+      "I’m off due a natural disaster",
+      "The business I worked for closed permanently"
+     ]
+    },
+    {
+     "type": "dropdown",
+     "name": "Most recent employer reason for termination",
+     "visible": false,
+     "visibleIf": "{Most recent employer separation reason}='I was terminated'",
+     "tag": "Optimum Dropdown",
+     "title": "What was the reason for your termination?",
+     "choices": [
+      "Reduction in force or company downsizing",
+      "No reason given to me by my employer",
+      "Temporary assignment ended/Employer had no more work available",
+      "Work performance/Not meeting company goals",
+      "Attendance",
+      "Medical reasons",
+      "Alleged misconduct ",
+      "Alleged theft ",
+      "Work rule violation ",
+      "Forced Resignation ",
+      "Other"
+     ]
+    },
+    {
+     "type": "dropdown",
+     "name": "Most recent employer reason for being laid off",
+     "visible": false,
+     "visibleIf": "{Most recent employer separation reason}='I was laid off'",
+     "tag": "Optimum Dropdown",
+     "title": "Please select one of the following:",
+     "choices": [
+      "I am permanently laid off ",
+      "I am temporarily laid off ",
+      "My temporary job assignment ended "
+     ]
+    },
+    {
+     "type": "dropdown",
+     "name": "Most recent employer still employed reason",
+     "visible": false,
+     "visibleIf": "{Most recent employer separation reason}='Im still employed'",
+     "tag": "Optimum Dropdown",
+     "title": "Please select one of the following:",
+     "choices": [
+      "I requested a reduction in hours ",
+      "Employer has permanently reduced my hours ",
+      "I am currently on a leave of absence ",
+      "There has been no change to my hours with this employer "
+     ]
+    },
+    {
+     "type": "panel",
+     "name": "panel17",
+     "elements": [
+      {
+       "type": "dropdown",
+       "name": "Most recent employer closed permanently reason",
+       "tag": "Optimum Dropdown",
+       "title": "Please select one of the following:",
+       "choices": [
+        "Entire business closed",
+        "Work site/location closed",
+        "Department closed"
+       ]
+      },
+      {
+       "type": "radiogroup",
+       "choices": [
+        "Yes",
+        "No"
+       ],
+       "name": "Most recent employer was closed permanently sold",
+       "tag": "Optimum RadioGroup",
+       "title": "Was the employer’s business sold?"
+      },
+      {
+       "type": "panel",
+       "name": "panel16",
+       "elements": [
+        {
+         "type": "text",
+         "name": "Most recent employer closed permanently sold info 1/5",
+         "tag": "Optimum Date",
+         "title": "Please enter the date the business was sold."
+        },
+        {
+         "type": "text",
+         "name": "Most recent employer closed permanently sold info 2/5",
+         "tag": "Optimum SingleLine",
+         "title": "What is the new business name?"
+        },
+        {
+         "type": "text",
+         "name": "Most recent employer closed permanently sold info 3/5",
+         "tag": "Optimum SingleLine",
+         "title": "What is the new owner’s name?"
+        },
+        {
+         "type": "text",
+         "name": "Most recent employer closed permanently sold info 4/5",
+         "tag": "Optimum Phone",
+         "title": "What is the new owner’s phone number?"
+        },
+        {
+         "type": "multipletext",
+         "name": "Most recent employer closed permanently sold info 5/5",
+         "tag": "Optimum Address",
+         "title": "What is the new owner’s address?",
+         "items": [
+          {
+           "name": "addressLine1"
+          },
+          {
+           "name": "addressLine2"
+          },
+          {
+           "name": "city"
+          },
+          {
+           "name": "state"
+          },
+          {
+           "name": "zip"
+          },
+          {
+           "name": "zipExtension"
+          }
+         ]
+        }
+       ],
+       "visible": false,
+       "visibleIf": "{Most recent employer was closed permanently sold}='Yes'"
+      },
+      {
+       "type": "text",
+       "name": "Most recent employer other names",
+       "tag": "Optimum SingleLine",
+       "title": "Enter any other name your employer uses (doing business as)."
+      },
+      {
+       "type": "text",
+       "name": "Most recent employer date business closed",
+       "tag": "Optimum Date",
+       "title": "Please enter the date the business closed"
+      }
+     ],
+     "visible": false,
+     "visibleIf": "{Most recent employer separation reason}='The business I worked for closed permanently'"
+    },
+    {
+     "type": "text",
+     "name": "Job duties",
+     "tag": "Optimum SingleLine",
+     "title": "What were your job duties?"
+    }
+   ],
+   "name": "Most Recent Employment",
+   "title": "Most Recent Employment"
+  },
+  {
+   "category": "Dependents",
+   "elements": [
+    {
+     "type": "html",
+     "name": "Dependent Info Message",
+     "visible": false,
+     "visibleIf": "{Out of state wages 1} = 'Yes'",
+     "html": "Qualified dependent(s) may increase your benefit amount. You may enter up to four (4) dependents.<br>\nA dependent may be:<br><br>\nAny person you claimed or will claim on your Federal tax return for tax year [YYYY] [This is the most recent calendar year ending prior to the BYB date, e.g., for a BYB of 12/30/2018, this YYYY would = 2017]<br>\nA spouse who earned $120 or less the we¬ek before you file the application<br><br>\nExceptions are as follows:<br><br>\nA person who is listed as a dependent on another existing claim<br>\nA person who listed you as a dependent on their existing claim<br>\nYou cannot list yourself as a dependent<br><br>\nAny dependent on this claim application will go through the identity verification process.<br><br>\nOnly dependents with a verified identity will be added to the claim.\n"
+    },
+    {
+     "type": "radiogroup",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "name": "Any dependents to claim",
+     "tag": "Optimum RadioGroup",
+     "title": "Do you wish to claim dependent(s)?"
+    },
+    {
+     "type": "text",
+     "name": "manageDependents",
+     "visible": false,
+     "visibleIf": "{Any dependents to claim} = 'Yes'",
+     "tag": "Optimum ManageDependent",
+     "title": "Manage Dependents"
+    }
+   ],
+   "name": "Dependents",
+   "title": "Dependents"
+  },
+  {
+   "category": "Able & Available",
+   "elements": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "name": "A&A corporate officer",
+     "tag": "Optimum RadioGroup",
+     "title": "Are you a corporate officer?"
+    }
+   ],
+   "name": "Able & Available",
+   "title": "Able & Available"
+  },
+  {
+   "category": "Vacation Pay",
+   "elements": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "name": "Vacation pay after separation",
+     "tag": "Optimum RadioGroup",
+     "title": "Did you receive vacation pay after {Mostrecentemployerenddate}"
+    },
+    {
+     "type": "panel",
+     "name": "panel18",
+     "elements": [
+      {
+       "type": "text",
+       "name": "Vacation pay amount",
+       "tag": "Optimum Currency",
+       "title": "How much vacation pay did you receive?",
+       "placeHolder": "$ 1,000,000"
+      },
+      {
+       "type": "text",
+       "name": "Vacation pay number of days OR hours",
+       "tag": "Optimum Label",
+       "title": "Please enter either of the following fields:",
+       "placeHolder": "THIS IS NOT A QUESTION"
+      },
+      {
+       "type": "text",
+       "name": "Vacation pay number of days",
+       "visibleIf": "{Vacation pay number of hours} empty",
+       "tag": "Optimum Number",
+       "title": "How many vacation days did you or will you receive?"
+      },
+      {
+       "type": "text",
+       "name": "Vacation pay number of hours",
+       "visibleIf": "{Vacation pay number of days} empty",
+       "tag": "Optimum Number",
+       "title": "How many hours did you receive?"
+      }
+     ],
+     "visible": false,
+     "visibleIf": "{Vacation pay after separation}='Yes'"
+    }
+   ],
+   "name": "Vacation Pay",
+   "title": "Vacation Pay"
+  },
+  {
+   "category": "Deductible Income",
+   "elements": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "name": "Pension yes or no",
+     "tag": "Optimum RadioGroup",
+     "title": "Are you receiving a pension?"
+    },
+    {
+     "type": "panel",
+     "name": "panel19",
+     "elements": [
+      {
+       "type": "text",
+       "name": "Pension contributing employer",
+       "tag": "Optimum SingleLine",
+       "title": "Please enter the name of the contributing employer"
+      },
+      {
+       "type": "radiogroup",
+       "choices": [
+        "Yes",
+        "No"
+       ],
+       "name": "Pension did you contribute",
+       "tag": "Optimum RadioGroup",
+       "title": "Did you contribute funds to your pension?"
+      },
+      {
+       "type": "text",
+       "name": "Pension start date",
+       "tag": "Optimum Date",
+       "title": "What was the start date of the pension?"
+      },
+      {
+       "type": "dropdown",
+       "name": "Pension gross amount",
+       "tag": "Optimum Dropdown",
+       "title": "Please select one of the following:",
+       "choices": [
+        "Monthly",
+        "Lump sum"
+       ]
+      },
+      {
+       "type": "radiogroup",
+       "choices": [
+        "Yes",
+        "No"
+       ],
+       "name": "Pension lump sum detail",
+       "tag": "Optimum RadioGroup",
+       "title": "Was the amount rolled into an IRA account within 90 days from the date the pension was awarded?",
+       "visible": false,
+       "visibleIf": "{Pension gross amount}='Lump sum'"
+      },
+      {
+       "type": "dropdown",
+       "name": "Pension type",
+       "tag": "Optimum Dropdown",
+       "title": "Please select the type of pension.",
+       "choices": [
+        "Military",
+        "Non-military"
+       ]
+      }
+     ],
+     "visible": false,
+     "visibleIf": "{Pension yes or no} = 'Yes'"
+    }
+   ],
+   "name": "Pension",
+   "title": "Pension"
+  },
+  {
+   "category": "Deductible Income",
+   "elements": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "name": "Deductible income workers’ compensation yes or no",
+     "tag": "Optimum RadioGroup",
+     "title": "Have you received Workers’ Compensation since MM/DD/YYYY? [First day of regular base period]"
+    },
+    {
+     "type": "panel",
+     "name": "panel20",
+     "elements": [
+      {
+       "type": "text",
+       "name": "Deductible Income – Workers’ Compensation Details 1/10",
+       "tag": "Optimum Date",
+       "title": "When did you start receiving Workers’ Compensation?"
+      },
+      {
+       "type": "radiogroup",
+       "choices": [
+        "Yes",
+        "No"
+       ],
+       "name": "Deductible Income – Workers’ Compensation Details 2/10",
+       "tag": "Optimum RadioGroup",
+       "title": "Are you still receiving Workers’ Compensation?"
+      },
+      {
+       "type": "text",
+       "name": "Deductible Income – Workers’ Compensation Details 3/10",
+       "visible": false,
+       "visibleIf": "{Deductible Income – Workers’ Compensation Details 2/10}='No'",
+       "tag": "Optimum Date",
+       "title": "When did you stop receiving Workers’ Compensation?"
+      },
+      {
+       "type": "radiogroup",
+       "choices": [
+        "Yes",
+        "No"
+       ],
+       "name": "Deductible Income – Workers’ Compensation Details 4/10",
+       "tag": "Optimum RadioGroup",
+       "title": "Were the Workers’ Compensation benefits paid under Iowa law?"
+      },
+      {
+       "type": "text",
+       "name": "Deductible Income – Workers’ Compensation Details 5/10",
+       "tag": "Optimum SingleLine",
+       "title": "What is the name of the responsible employer?"
+      },
+      {
+       "type": "text",
+       "name": "Deductible Income – Workers’ Compensation Details 6/10",
+       "tag": "Optimum SingleLine",
+       "title": "What is the name of the insurance company?"
+      },
+      {
+       "type": "text",
+       "name": "Deductible Income – Workers’ Compensation Details 7a/10",
+       "tag": "Optimum SingleLine",
+       "title": "Please enter the insurance company contact name."
+      },
+      {
+       "type": "text",
+       "name": "Deductible Income – Workers’ Compensation Details 7b/10",
+       "tag": "Optimum Phone",
+       "title": "Please enter the insurance company telephone number."
+      },
+      {
+       "type": "dropdown",
+       "name": "Deductible Income – Workers’ Compensation Details 8/10",
+       "tag": "Optimum Dropdown",
+       "title": "What is the type of benefit?",
+       "choices": [
+        "Temporary Total Disability (TTD)",
+        "Permanent Partial Disability (PPD)",
+        "Indemnity Insurance"
+       ]
+      },
+      {
+       "type": "html",
+       "name": "question20",
+       "visible": false,
+       "visibleIf": "{Deductible Income – Workers’ Compensation Details 8/10}='Indemnity Insurance'",
+       "html": "<b>Indemnity Insurance:</b> Payment for non-occupational illness or injury under a benefit plan implemented by an employer"
+      },
+      {
+       "type": "dropdown",
+       "name": "Deductible Income – Workers’ Compensation Details 9/10",
+       "tag": "Optimum Dropdown",
+       "title": "Please select the frequency of payment.",
+       "choices": [
+        "Monthly",
+        "Weekly",
+        "Lump sum"
+       ]
+      },
+      {
+       "type": "text",
+       "name": "Deductible Income – Workers’ Compensation Details 10/10",
+       "tag": "Optimum Currency",
+       "title": "Please enter the payment amount.",
+       "placeHolder": "$ 1,000,000"
+      }
+     ],
+     "visible": false,
+     "visibleIf": "{Deductible income workers’ compensation yes or no}='Yes'"
+    }
+   ],
+   "name": "Worker's Compensation",
+   "title": "Worker's Compensation"
+  },
+  {
+   "category": "Deductible Income",
+   "elements": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "name": "Deductible income severance pay yes or no",
+     "tag": "Optimum RadioGroup",
+     "title": "Will you receive severance pay after {Mostrecentemployerenddate}"
+    },
+    {
+     "type": "panel",
+     "name": "panel21",
+     "elements": [
+      {
+       "type": "text",
+       "name": "Deductible Income – Severance Pay Details 1/3",
+       "tag": "Optimum Currency",
+       "title": "Please enter the severance pay amount.",
+       "placeHolder": "$ 1,000,000"
+      },
+      {
+       "type": "dropdown",
+       "name": "Deductible Income – Severance Pay Details 2/3",
+       "tag": "Optimum Dropdown",
+       "title": "Is this a lump sum or designated to a period after separation?",
+       "choices": [
+        "Lump sum",
+        "Designated"
+       ]
+      },
+      {
+       "type": "text",
+       "name": "Deductible Income – Severance Pay Details 3/3",
+       "visible": false,
+       "visibleIf": "{Deductible Income – Severance Pay Details 2/3}='Designated'",
+       "tag": "Optimum Label",
+       "title": "Please enter either the number of days/weeks severance pay will be received, or the dates severance pay will be received.",
+       "placeHolder": "THIS IS NOT A QUESTION"
+      },
+      {
+       "type": "dropdown",
+       "name": "Deductible Income – Severance Pay Details 3/3 dropdown",
+       "visible": false,
+       "visibleIf": "{Deductible Income – Severance Pay Details 3/3 Start Date} empty and {Deductible Income – Severance Pay Details 3/3 End Date} empty and {Deductible Income – Severance Pay Details 2/3}='Designated'",
+       "tag": "Optimum Dropdown",
+       "title": "Please select one:",
+       "choices": [
+        "Days",
+        "Weeks"
+       ]
+      },
+      {
+       "type": "text",
+       "name": "Deductible Income – Severance Pay Details 3/3 days or weeks",
+       "visible": false,
+       "visibleIf": "{Deductible Income – Severance Pay Details 3/3 dropdown} notempty",
+       "tag": "Optimum Number",
+       "title": "Enter the number of days or weeks"
+      },
+      {
+       "type": "text",
+       "name": "Deductible Income – Severance Pay Details 3/3 Start Date",
+       "visible": false,
+       "visibleIf": "{Deductible Income – Severance Pay Details 3/3 dropdown} empty and {Deductible Income – Severance Pay Details 2/3}='Designated'",
+       "tag": "Optimum Date",
+       "title": "Start Date"
+      },
+      {
+       "type": "text",
+       "name": "Deductible Income – Severance Pay Details 3/3 End Date",
+       "visible": false,
+       "visibleIf": "{Deductible Income – Severance Pay Details 3/3 dropdown} empty and {Deductible Income – Severance Pay Details 2/3}='Designated'",
+       "tag": "Optimum Date",
+       "title": "End Date"
+      },
+      {
+       "type": "radiogroup",
+       "choices": [
+        "Yes",
+        "No"
+       ],
+       "name": "Deductible income severance sign",
+       "tag": "Optimum RadioGroup",
+       "title": "Were you required to sign a severance agreement?"
+      }
+     ],
+     "visible": false,
+     "visibleIf": "{Deductible income severance pay yes or no}='Yes'"
+    }
+   ],
+   "name": "Severance Pay",
+   "title": "Severance Pay"
+  },
+  {
+   "category": "Work Registration",
+   "elements": [
+    {
+     "type": "html",
+     "name": "question19",
+     "visible": false,
+     "visibleIf": "{Out of state wages 1} = 'Yes'",
+     "html": "TODO:  [If the user’s answer to either “Question ID: Reason for separation” or “Question ID: Most recent employer separation reason” is any of the following…\n<br><br>\nI am temporarily laid off\nEmployer has temporarily reduced my hours\nThere has been no change to my hours with this employer\nI’m off work due to a labor dispute/strike/lockout\nI’m off work due to a natural disaster\n"
+    },
+    {
+     "type": "radiogroup",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "name": "Want to register for work",
+     "tag": "Optimum RadioGroup",
+     "title": "Registering for work is optional, but will help you find a new job. Do you want to register for work with IowaWorks?"
+    },
+    {
+     "type": "panel",
+     "name": "panel22",
+     "elements": [
+      {
+       "type": "html",
+       "name": "Register please provide",
+       "visible": false,
+       "visibleIf": "{Out of state wages 1} = 'Yes'",
+       "html": "Please provide the following information:"
+      },
+      {
+       "type": "dropdown",
+       "name": "Work registration information 1/10",
+       "tag": "Optimum Dropdown",
+       "title": "What is the highest grade you have completed?",
+       "choices": [
+        "Completed 1st Grade",
+        "Completed 2nd Grade",
+        "Completed 3rd Grade",
+        "Completed 4th Grade",
+        "Completed 5th Grade",
+        "Completed 6th Grade",
+        "Completed 7th Grade",
+        "Completed 8th Grade",
+        "Completed 9th Grade",
+        "Completed 10th Grade",
+        "Completed 11th Grade",
+        "High School Degree",
+        "GED or High School Equivalency Diploma",
+        "Vocational or Technical School Certificate",
+        "Some Vocational or Technical School (No Certificate)",
+        "Some College (No Degree)",
+        "Associate's Degree",
+        "Bachelor's Degree",
+        "Master's Degree",
+        "Doctoral Degree",
+        "Post-Doctorate Studies"
+       ]
+      },
+      {
+       "type": "text",
+       "name": "Work registration information 2/10",
+       "tag": "Optimum SingleLine",
+       "title": "What was your course of study?"
+      },
+      {
+       "type": "text",
+       "name": "Work registration information 3/10",
+       "tag": "Optimum SingleLine",
+       "title": "What is the issuing institution’s name? "
+      },
+      {
+       "type": "text",
+       "name": "Work registration information 4/10",
+       "tag": "Optimum SingleLine",
+       "title": "In which city is the institution located?"
+      },
+      {
+       "type": "text",
+       "name": "Work registration information 5/10",
+       "tag": "Optimum SingleLine",
+       "title": "In which state or province is the institution located?"
+      },
+      {
+       "type": "text",
+       "name": "Work registration information 7/10",
+       "tag": "Optimum SingleLine",
+       "title": "What is your desired job type?"
+      },
+      {
+       "type": "text",
+       "name": "Work registration information 8/10",
+       "tag": "Optimum SingleLine",
+       "title": "What is your desired occupation?"
+      },
+      {
+       "type": "text",
+       "name": "Work registration information 9/10",
+       "tag": "Optimum SingleLine",
+       "title": "What is your desired salary?"
+      },
+      {
+       "type": "text",
+       "name": "Work registration information 10/10",
+       "tag": "Optimum SingleLine",
+       "title": "What is your desired location?"
+      }
+     ],
+     "visible": false,
+     "visibleIf": "{Want to register for work} = 'Yes'"
+    }
+   ],
+   "name": "Work Registration",
+   "title": "Work Registration"
+  },
+  {
+   "category": "Acknowledgements and Certifications",
+   "elements": [
+    {
+     "type": "html",
+     "name": "question21",
+     "html": "I acknowledge:<br>\n<ul>\n<li>The statements and information I have provided on this application will be used to determine my eligibility for UI benefits and are subject to verification.</li>\n<li>I may be guilty of fraud if I make false statements, provide false information, or knowingly withhold information to receive benefits.</li>\n<li>If I commit UI fraud, I may be fined, penalized, and criminally prosecuted.</li>\n<li>The information I provide to Iowa Workforce Development (IWD) may be made available to federal, state or local agencies and their subcontractors who administer employment and training programs.</li>\n<li>I must repay any UI benefits paid to me that I am not eligible to receive.</li>\n<li>I must file a weekly claim to request a benefit payment.</li>\n<li>I must report any income earned while I am filing to collect UI benefits.</li>\n<li>I must report any issues that might affect my ability to work or availability for work.</li>\n<li>I must report any separation that happens while I am filing to collect UI benefits.</li>\n<li>I must report if I refuse a job offer or referral.</li>\n<li>I must report any issues that limit my availability to work or attend training.</li>\n<li>I am required to know my rights and responsibilities while claiming UI benefits.</li>\n<li>I am required to contact the UI customer service if I have questions about my responsibilities or requirements of receiving UI benefits.</li>\n</ul\n<br><br>\t\nI certify:\n<ul>\n<li>I will read the Unemployment Insurance Handbook.</li>\n<li>I am totally or partially unemployed.</li>\n<li>I am able to work or attend training.</li>\n<li>I am registered for work by filing this application.</li>\n<li>Statements I have made on this application and all attachments to it are true, accurate, and complete to the best of my knowledge and belief.</li>\n</ul>"
+    },
+    {
+     "type": "checkbox",
+     "name": "Ack and Cert",
+     "tag": "Optimum Checkbox",
+     "title": "Do you agree to the following conditions above? ",
+     "isRequired": true,
+     "choices": [
+      "I certify"
+     ]
+    }
+   ],
+   "name": "Acknowledgements and Certifications",
+   "title": "Acknowledgements and Certifications"
+  },
+  {
+   "category": "Benefit Rights and Information",
+   "elements": [
+    {
+     "type": "html",
+     "name": "BRI Info",
+     "html": "<b>Attention:</b><br>\nYou must read the following Benefit Rights Information. You have a legal responsibility to know and follow all rules and requirements of the UI program. If you have a question about your responsibilities or the requirements of receiving benefits, the UI customer service is here to help. Please contact 1-866-239-0843. \n<br><br>\n<b>Unemployment Insurance Handbook</b><br>\nThe UI Handbook will answer most questions about your UI claim and help you avoid problems, delays, and improper payments. It explains your rights and responsibilities while claiming UI benefits.  You are responsible for reading and knowing the contents of this handbook.\n<br><br>\nAccess the Unemployment Insurance Handbook by clicking <a href=\"https://www.iowaworkforcedevelopment.gov/unemployment-insurance-benefits-handbook-guide-unemployment-insurance-benefits\">here:</a>\n<br><br>\n<b>Monetary Eligibility</b><br>\nWe will send you a monetary record, if this is the first application you have filed in the past 12 months or more. Even though your Monetary Record may show UI benefit amounts, you must meet additional requirements to receive UI benefits.\n<br><br>\nReview the record carefully to make sure the information is accurate.  Contact us immediately if any information is incorrect. Wages you earned in other states, from military or federal employer will not be listed on your first monetary record because these wages must be requested. Once we receive your wages, we will send you a corrected monetary record.\n<br><br>\nThe Monetary Record shows the following:\n<ul>\n<li>Start date of the claim</li>\n<li>Number of dependents claimed</li>\n<li>Work search requirements</li>\n<li>Weekly Benefit Amount (WBA)</li>\n<li>Maximum Benefit Amount (MBA)</li>\n<li>Employers you worked for during the base period and the last employer</li>\n<li>Wages you earned each quarter</li>\n</ul>\n<b>Requesting a UI Benefit Payment</b><br>\nTo request a UI benefit payment, you must file a weekly claim. You may submit your first weekly claim on MM/DD/YYYY [First Sunday after the effective date of the claim]\n<br><br>\nYou will be reporting information for the week of MM/DD/YYYY through MM/DD/YYYY. [Effective date of the claim through the Saturday after the effective date of the claim]\n<br><br>\nYou can file your weekly claim online through your Claimant Portal.\n<br><br>\n<b>You will be asked to report if you</b>\n<ul>\n<li>Are totally or partially unemployed</li>\n<li>Are able and available for work</li>\n<li>Have refused any job offers or referrals</li>\n<li>Are actively looking for work (unless waived)</li>\n<li>Work search information (date applied for the job, position applied for, company contact information, etc.)</li>\n<li>Have or will receive earnings, vacation pay, holiday pay, severance pay</li>\n<li>Have or will receive pension and workers’ compensation</li>\n</ul>"
+    }
+   ],
+   "name": "Benefit Rights and Information",
+   "title": "Benefit Rights and Information"
+  }
+ ]
+}

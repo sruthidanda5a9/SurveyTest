@@ -1,0 +1,14 @@
+{
+  "id" : 0,
+  "name" : "initialClaim",
+  "version" : null,
+  "status" : "DRAFT",
+  "surveyDefinition" : "{\n \"pages\": [\n  {\n   \"name\": \"page1\",\n   \"elements\": [\n    {\n     \"type\": \"text\",\n     \"name\": \"question1\",\n     \"placeHolder\": \"THIS IS NOT A QUESTION\",\n     \"tag\": \"Optimum Label\"\n    },\n    {\n     \"type\": \"text\",\n     \"name\": \"question2\",\n     \"placeHolder\": \"mail@example.com\",\n     \"tag\": \"Optimum Email\"\n    },\n    {\n     \"type\": \"text\",\n     \"inputType\": \"external\",\n     \"name\": \"question3\",\n     \"placeHolder\": \"000-00-0000\",\n     \"tag\": \"Optimum Ssn\"\n    }\n   ]\n  }\n ]\n}",
+  "lastInsertUpdateTS" : null,
+  "lastInsertUpdateBy" : "USER",
+  "expirationLogic" : "expireBy",
+  "expireByDayOfWeek" : 7,
+  "expireByHourOfDay" : 23,
+  "expireByMinuteOfHour" : 18,
+  "expireBySecondOfMinute" : 18
+}
